@@ -98,8 +98,55 @@ color: white;
     padding-right: 0;
     padding-left: 0;
 }
+.steps-to-follow__section{
+    background-color:#e8505b;
+}
+.steps-to-follow__section h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 2em;
+    font-size: 3em;
+}
+
+.steps-to-follow__section--card{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 3em;
+}
+
+.steps-to-follow__section--card div{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.steps-to-follow__section--card .card__num:hover{
+    transform: rotate(-4deg) scale(1.1);
+    transition-property: transform, -webkit-transform;
+    transition-duration: 300ms;
+}
 
 
 
+.card__num{
+    width: 20rem;
+}
+
+.steps-to-follow__section--card img{
+    width: auto;
+    height: 20rem;
+    object-fit:cover;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.steps-to-follow__section--card .card-body h5 {
+    text-align: center;
+}
+
+.steps-to-follow__section--card .card-body .btn{
+    width: 100%;
+    background-color: #455a64;
+}
 
 
