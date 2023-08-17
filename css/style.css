@@ -33,7 +33,7 @@ list-style-type: none;
 }
 
 #content-bar .content-bar__link--business {
-    background-color:#0477BF;
+    background-color:#e8505b;
     border-radius: 1.2em;
     padding: 0.8em;
     color: white;
@@ -46,6 +46,43 @@ list-style-type: none;
     transition-property: opacity, left, top, height;
     transition-duration: 2s;
     transition-delay: 5s;
-    background-color:#0D0D0D;
+    background-color:#455a64;
     
 }
+
+#container_search{
+    margin-top: 2em;
+   
+    
+}
+#container_search__section-form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+
+ 
+}
+
+
+#container_search__form{
+    background-color: #e8505b;
+    padding: 3em;
+}
+
+#container_search__form h2{
+    text-align: center;
+    margin-bottom: 3em;
+    color: aliceblue;
+}
+
+#form_search__record div #color_w{
+    color: antiquewhite;
+}
+
+.form_search__record--btn
+{
+    width: 100%;
+    background-color:#455a64;
+    border: none;
+}
+
