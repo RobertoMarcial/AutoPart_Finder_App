@@ -12,74 +12,92 @@
   </head>
   <body>
     <div class="container border-0 ">
-      <div class="row">
-        <nav id="menu" class="col-12 ">
-          <div class="bar-navigation ">
-            <div class="col-6" id="img-bar">
-              <img src="img/AutoPartFinder.svg" alt="Logo" width="300" height="300" class="d-inline-block align-top mr-2">
+            <div class="row">
+                <nav id="menu" class="col-12 ">
+                <div class="bar-navigation ">
+                    <div class="col-6" id="img-bar">
+                    <img src="img/AutoPartFinder.svg" alt="Logo" width="300" height="300" class="d-inline-block align-top mr-2">
+                    </div>
+                    <div class="col-6 ">
+                    <ul id="content-bar">
+                        <li>
+                        <a href="#" class="content-bar__link">Login</a>
+                        </li>
+                        <li>
+                        <a href="#" class="content-bar__link">Register Customer</a>
+                        </li>
+                        <li>
+                        <a href="#" class="content-bar__link--business">Register business</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                </nav>
             </div>
-            <div class="col-6 ">
-              <ul id="content-bar">
-                <li>
-                  <a href="#" class="content-bar__link">Login</a>
-                </li>
-                <li>
-                  <a href="#" class="content-bar__link">Register Customer</a>
-                </li>
-                <li>
-                  <a href="#" class="content-bar__link--business">Register business</a>
-                </li>
-              </ul>
+
+            <div id="container_search" class="row">
+                <div id="container_search__section-form" class="col-12">
+                    <div id="container_search__form" class="col-5">
+                        <h2>
+                            Expedite your search with us AutoPartFinder
+                        </h2>
+
+                        <form class="form_search__record">
+                            <div class="mb-3">
+                            <label for="#" class="form-label">Search Part</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="#" class="form-text">Enter the part specifically</div>
+                            </div>
+
+                            <div id="form_search__record--select--model" class="mb-3">
+                                <label for="#" class="form-label">Brands</label>
+                                <select  class="form-select " aria-label="Default select example">
+                                    <option selected>Select Model</option>
+                                    <option value="1">TOYOTA</option>
+                                    <option value="2">NISSAN</option>
+                                    <option value="3">CHEVROLET</option>
+                                </select>
+                            </div>
+                        
+                            <div id="form_search__record--select--years" class="mb-3">
+                                <label for="#" class="form-label">Year</label>
+                                <select  class="form-select " aria-label="Default select example">
+                                    <option selected>Select Year</option>
+                                    <option value="1">2023</option>
+                                    <option value="2">2022</option>
+                                    <option value="3">2021</option>
+                                </select>
+                            </div>
+                        
+                            <button type="submit" class="btn btn-secondary form_search__record--btn">Search</button>
+                        </form>
+                    </div>
+
+                    <div class="col-5">
+                        <img src="img/dibujo_repartidor.svg" alt="">
+                    </div>
+                </div>
             </div>
-          </div>
-        </nav>
+
+          
+ 
+    </div>
+    <div id="steps-to-follow" class="container-fluid ">
+      <img class="#steps-to-follow__img" src="img/wave.svg" alt="">
+      <div class="steps-to-follow--section">
+            <div class="steps-to-follow--one">
+
+            </div>
+            <div class="steps-to-follow--two">
+
+            </div>
+            <div class="steps-to-follow--three">
+
+            </div>
       </div>
-
-      <div id="container_search" class="row">
-        <div id="container_search__section-form" class="col-12">
-            <div id="container_search__form" class="col-5">
-                <h2>
-                    Expedite your search with us AutoPartFinder
-                </h2>
-
-                <form class="form_search__record">
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label color_w">Search Part</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text color_w">Enter the part specifically</div>
-                    </div>
-
-                    <div id="form_search__record--select--model" class="mb-3">
-                        <label for="form_select_label" class="form-label">Brands</label>
-                        <select  class="form-select " aria-label="Default select example">
-                            <option selected>Select Model</option>
-                            <option value="1">TOYOTA</option>
-                            <option value="2">NISSAN</option>
-                            <option value="3">CHEVROLET</option>
-                          </select>
-                    </div>
-                   
-                    <div id="form_search__record--select--years" class="mb-3">
-                        <label for="form_select_label" class="form-label">Year</label>
-                        <select  class="form-select " aria-label="Default select example">
-                            <option selected>Select Year</option>
-                            <option value="1">2023</option>
-                            <option value="2">2022</option>
-                            <option value="3">2021</option>
-                          </select>
-                    </div>
-                   
-                    <button type="submit" class="btn btn-primary form_search__record--btn">Search</button>
-                  </form>
-            </div>
-
-            <div class="col-5">
-                <img src="img/dibujo_repartidor.svg" alt="">
-            </div>
-        </div>
     </div>
-    </div>
-   
+               
+            
     <script type="text/javascript" src="jquery/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </body>
