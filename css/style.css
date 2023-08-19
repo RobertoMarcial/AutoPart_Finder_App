@@ -223,48 +223,72 @@ color: white;
     grid-column: 3 / 5;
 }
 
-/*car view de information testimonial 1**/
-.testimonial__one .testimonial__header
+/*car view de information testimonial 1,4,5**/
+.testimonial__one .testimonial__header, 
+.testimonial__four .testimonial__header,
+.testimonial__five .testimonial__header
+
 
 {
     display: flex;
     align-items: center;
-    
-    
+     
 }
 
-.testimonial__one .testimonial__header div,
-.testimonial__two .testimonial__header div {
+/*Testimonial header va en todos los testimoniales */
+.testimonial__header div
+{
     margin-right: 1em;
 }
 
-.testimonial__one .testimonial__header .testimonial__img img{
+/*Tamaño de imagen en el testimonial 1, 4, 5*/
+
+.testimonial__one .testimonial__header .testimonial__img img,
+.testimonial__four .testimonial__header .testimonial__img img,
+.testimonial__five .testimonial__header .testimonial__img img
+
+{
     width: 5em;
     height: 5em;
     border-radius: 150px;
 }
 
-.testimonial__one .testimonial__information--text p{
+.testimonial__one .testimonial__information--text p
+{
     margin-left: 2.5em;
    
 }
 
-/*car view de information testimonial 2**/
-.testimonial__two .testimonial__header{
+/*car view de information testimonial 2 y 3**/
+.testimonial__two .testimonial__header,
+.testimonial__three .testimonial__header
+
+{
     display: flex;
     align-items: flex-start;
 }
-.testimonial__two .testimonial__header .testimonial__img img{
+
+/*tamaño de imagen del testimonial 2 y 3*/
+.testimonial__two .testimonial__header .testimonial__img img,
+.testimonial__three .testimonial__header .testimonial__img img
+{
     width: 4em;
     height: 4em;
     border-radius: 150px;
 }
 
-.testimonial__two .testimonial__img--information p{
+
+/*Separacion de la imagen de estrella entre el texto del testimonial 2 y 3*/
+.testimonial__two .testimonial__img--information p,
+.testimonial__three .testimonial__img--information p
+{
     margin-bottom: 0.5em;
 }
 
-.testimonial__two .testimonial__img--information img{
+/*ancho de la informacion del testimonoal 2 y 3*/
+.testimonial__two .testimonial__img--information img,
+.testimonial__three .testimonial__img--information img
+{
    width: 7em;
    padding: 0;
 }
