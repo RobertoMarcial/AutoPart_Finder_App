@@ -50,6 +50,8 @@ list-style-type: none;
     background-color:#455a64;
     
 }
+/*navigation bar*/
+
 
 #container_search{
     margin-top: 2em;
@@ -94,6 +96,8 @@ color: white;
     border: none;
 }
 
+/*steps to follow*/
+
 #steps-to-follow{
     padding-right: 0;
     padding-left: 0;
@@ -134,6 +138,7 @@ color: white;
 .steps-to-follow__section--card img{
     width: auto;
     height: 20rem;
+    padding: 10px;
     object-fit:cover;
     border: none;
     border-top-left-radius: 10px;
@@ -150,3 +155,54 @@ color: white;
 }
 
 
+/**testimonials*/
+
+
+.testimonials__heading{
+    text-align: center;
+    margin: 2em 0 ;
+    font-size: 3em;
+}
+
+.testimonials__items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+    
+  }
+  
+  .grid-item {
+    
+    border-radius: 1em;
+    background-color: #455a64;
+  }
+
+
+  .testimonials__items .testimonial__one{
+    grid-column: 1 / 4;
+    
+    
+  }
+
+  .testimonials__items .testimonial__two{
+   grid-column: 4 / 5
+  }
+
+  .testimonials__items .testimonial__three{
+    grid-column: 5 / 6;
+    grid-row: 1 / 3;
+  }
+
+  .testimonials__items .testimonial__four{
+    grid-column: 1 / 3 ;
+
+  }
+.testimonials__items .testimonial__five {
+    grid-column: 3 / 5;
+}
+
+
+ 
+
+ 
