@@ -94,6 +94,7 @@ color: white;
     width: 100%;
     background-color:#455a64;
     border: none;
+    
 }
 
 /*steps to follow*/
@@ -176,12 +177,32 @@ color: white;
     
     border-radius: 1em;
     background-color: #455a64;
+    padding: 1em;
   }
+
+  .grid-item p{
+    color: white;
+  }
+
+  .grid-item blockquote {
+    color: white;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    font-size: 1.2em;  
+    font-weight: 500; 
+  }
+
+  .grid-item blockquote strong{
+    margin-right: 5px;
+  }
+
+ 
+
+  
 
 
   .testimonials__items .testimonial__one{
     grid-column: 1 / 4;
-    
     
   }
 
@@ -201,6 +222,58 @@ color: white;
 .testimonials__items .testimonial__five {
     grid-column: 3 / 5;
 }
+
+/*car view de information testimonial 1**/
+.testimonial__one .testimonial__header
+
+{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.testimonial__one .testimonial__header div,
+.testimonial__two .testimonial__header div {
+    margin-right: 1em;
+}
+
+.testimonial__one .testimonial__header .testimonial__img img{
+    width: 5em;
+    height: 5em;
+    border-radius: 150px;
+}
+
+.testimonial__one .testimonial__information--text p{
+    margin-left: 2.5em;
+   
+}
+
+/*car view de information testimonial 2**/
+.testimonial__two .testimonial__header{
+    display: flex;
+    align-items: flex-start;
+}
+.testimonial__two .testimonial__header .testimonial__img img{
+    width: 4em;
+    height: 4em;
+    border-radius: 150px;
+}
+
+.testimonial__two .testimonial__img--information p{
+    margin-bottom: 0.5em;
+}
+
+.testimonial__two .testimonial__img--information img{
+   width: 7em;
+   padding: 0;
+}
+
+
+
+
+
+
 
 
  
