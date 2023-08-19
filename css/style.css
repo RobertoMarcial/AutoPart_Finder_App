@@ -2,6 +2,8 @@ body{
     padding: 0;
     margin: 0;
 }
+
+/***********************Navigation bar******************/
 .bar-navigation{
     display: flex;
     justify-content: center;
@@ -97,7 +99,7 @@ color: white;
     
 }
 
-/*steps to follow*/
+/*******************************steps to follow****************/
 
 #steps-to-follow{
     padding-right: 0;
@@ -156,7 +158,7 @@ color: white;
 }
 
 
-/**testimonials*/
+/*****************************testimonials******************/
 
 
 .testimonials__heading{
@@ -294,9 +296,12 @@ color: white;
 }
 
 
+/***************************seccion de negocios favoritos*************/
 
-
-
+.business__favorites
+{
+    background-color:  #eceeef;
+}
 
 
 
