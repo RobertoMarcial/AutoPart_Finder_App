@@ -298,12 +298,65 @@ color: white;
 
 /***************************seccion de negocios favoritos*************/
 
-.business__favorites
+.favorites
 {
     background-color:  #eceeef;
+    padding-bottom: 3em;
 }
 
+.favorites h2 {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
 
+.favorites .favorites__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    
+}
+
+.favorites .favorites__grid .favorite{
+    display: flex;
+    align-items: center;
+    background-color:white;
+    padding: 3em;
+    border-radius: 1em;
+    box-shadow: 0px 0px 2.6rem -0.8rem #99a4a9;
+}
+
+.favorite img {
+    width: 7em;
+    height: auto;
+    margin-right: 1em;
+}
+
+.favorites .favorites__grid .favorite__content{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+
+
+    
+
+}
+
+.favorites .favorites__grid .favorite__content img{
+    width: 10em;
+}
+
+.favorites .favorites__grid .favorite__content h3{
+    color: #e8505b;
+    margin-bottom: 0.5em;
+   
+}
+
+.favorites .favorites__grid .favorite__content p{
+    color:  #455a64;
+    font-size: 1.2em;
+}
 
  
 
