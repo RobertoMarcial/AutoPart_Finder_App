@@ -358,6 +358,55 @@ color: white;
     font-size: 1.2em;
 }
 
+
+
+/*************about****************/
+.about__us{
+    margin-bottom: 3em
+}
+
+
+
+.about__us .about__heading{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.about__us .about__we--are{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5em;
+    
+}
+
+.about__us .about__we--img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.about__us .about__we--img img{
+    width: 40em;
+    height: auto; 
+}
+
+.about__us .about__we--text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+
+.about__us .about__we--text p{
+    font-size: 1.2em;
+}
+
+
+
+
+
  
 
  
