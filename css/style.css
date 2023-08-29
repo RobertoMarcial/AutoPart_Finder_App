@@ -6,13 +6,15 @@ body{
 /***********************Navigation bar******************/
 .bar-navigation{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 15em;
     
   
    
 }
+
+
 
 #content-bar{
  display: flex;
@@ -28,7 +30,8 @@ list-style-type: none;
 
 #content-bar a{
     text-decoration: none;
-    color: #0D0D0D;
+    margin: 1em;
+    color:#455a64;
     font-size: 1.4em;
     padding: 5px;
     font-family: 'Oxygen', sans-serif;
@@ -49,9 +52,28 @@ list-style-type: none;
     transition-property: opacity, left, top, height;
     transition-duration: 2s;
     transition-delay: 5s;
-    background-color:#455a64;
+    background-color:#99a4a9;
     
 }
+
+
+/*****************Responsive-nav*************/
+#content-bar__res li {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+   }
+   
+   #content-bar__res li a{
+       text-decoration: none;
+       color: #eceeef;
+       font-size: 1.5em;
+       
+   }
+
+
+
+
 /*navigation bar*/
 
 
@@ -62,7 +84,7 @@ list-style-type: none;
 }
 #container_search__section-form{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: end;
 
  
@@ -98,6 +120,12 @@ color: white;
     border: none;
     
 }
+
+.container__img--rep{
+    margin-left: 2em;
+}
+
+
 
 /*******************************steps to follow****************/
 
@@ -169,7 +197,7 @@ color: white;
 
 .testimonials__items {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 2rem;
     
