@@ -1,6 +1,6 @@
 body {
     padding: 0;
-    margin: 0;
+    margin: 
   }
   
   /***********************Navigation bar******************/
@@ -158,7 +158,6 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
-  
       padding-bottom: 2em;
     }
     .steps-to-follow__section--card .card__num {
