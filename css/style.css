@@ -185,6 +185,24 @@ color: white;
     background-color: #455a64;
 }
 
+@media(min-width: 576px) and (max-width: 767px){
+
+    .steps-to-follow__section--card{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+     padding-bottom: 2em;  
+        
+ }  
+ .steps-to-follow__section--card .card__num{
+    margin-bottom: 1em;
+    }
+
+
+}
+
+
 
 /*****************************testimonials******************/
 
@@ -324,6 +342,27 @@ color: white;
 }
 
 
+@media(min-width: 576px) and (max-width: 767px){
+
+    .testimonials__items {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2em;
+        
+      }
+
+      .testimonials__items .testimonial__header .testimonial__img img{
+        width: 5em;
+        height: 5em;
+      }
+
+     .testimonials__items .testimonial__img--information img{
+        width: 7em;
+     }
+
+}
+
+
 /***************************seccion de negocios favoritos*************/
 
 .favorites
@@ -373,6 +412,7 @@ color: white;
 
 .favorites .favorites__grid .favorite__content img{
     width: 10em;
+    padding-bottom: 1em;
 }
 
 .favorites .favorites__grid .favorite__content h3{
@@ -386,7 +426,25 @@ color: white;
     font-size: 1.2em;
 }
 
+@media(min-width: 576px) and (max-width: 767px){
 
+    .favorites .favorites__grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        
+    }
+
+    .favorites .favorites__grid .favorite__content img{
+        width: 7em;
+      
+        
+       
+        
+    }
+
+   
+}
 
 /*************about****************/
 .about__us{
@@ -440,6 +498,34 @@ color: white;
     padding: 4em 4em 0em 4em;
    
 } 
+
+@media(min-width: 576px) and (max-width: 767px){
+   
+    .about__us{
+        padding: 1em
+    }
+   
+    .about__us .about__we--are{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3em;
+       
+        
+    }
+
+    .about__us .about__we--img{
+        width: auto;
+    }
+
+    .about__us .about__we--text .btn{
+        
+        width: 100%;
+    }
+
+
+
+    
+}
 
 
 
