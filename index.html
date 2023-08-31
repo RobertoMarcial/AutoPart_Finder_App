@@ -6,6 +6,8 @@
     <title>AutoPartFinder</title>
     <link rel="stylesheet" href="css_boost/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Libre+Franklin:wght@300&family=Lobster&family=Overpass:wght@200&family=Oxygen&family=Playball&family=Playfair:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
@@ -13,30 +15,56 @@
   <body>
     <div class="container border-0 navigation ">
       <div class="row">
-        <nav id="menu" class="col-12 ">
+        <nav id="menu" class="col-12 d-none d-sm-none d-md-block ">
           <div class="bar-navigation ">
-            <div class="col-6" id="img-bar">
-              <img src="img/svg/AutoPartFinder.svg" alt="Logo" width="300" height="300" class="d-inline-block align-top mr-2">
+            <div id="img-bar">
+              <img class="" src="img/svg/AutoPartFinder.svg" alt="Logo" width="300" height="300" class="d-inline-block align-top mr-2">
             </div>
-            <div class="col-6 ">
+            <div>
               <ul id="content-bar">
                 <li>
-                  <a href="login.html" class="content-bar__link">Login</a>
+                  <a href="login.html" class="content-bar__link ">Login</a>
                 </li>
                 <li>
-                  <a href="business.html" class="content-bar__link">Register business</a>
+                  <a href="business.html" class="content-bar__link ">Register business</a>
                 </li>
                 <li>
-                  <a href="business.html" class="content-bar__link--business">Register Customer</a>
+                  <a href="business.html" class="content-bar__link--business ">Register Customer</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
+        <div class="content__bar--res col-12 d-block d-sm-block d-md-none">
+          <div>
+            <nav class="navbar navbar-dark  bg-danger">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </nav>
+          </div>
+          <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="body">
+            <div class="bg-danger p-4">
+              <ul id="content-bar__res">
+                <li class="">
+                  <a href="business.html" class="content-bar__link ">Register business</a>
+                </li>
+                <li class="">
+                  <a href="business.html" class="content-bar__link--business">Register Customer</a>
+                </li>
+                <li>
+                  <a href="login.html" class="content-bar__link  ">Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
       <div id="container_search" class="row">
         <div id="container_search__section-form" class="col-12">
-          <div id="container_search__form" class="col-5">
+          <div id="container_search__form" class="col">
             <h2> Expedite your search with us AutoPartFinder </h2>
             <form class="form_search__record">
               <div class="mb-3">
@@ -65,19 +93,19 @@
               <button type="submit" class="btn btn-secondary form_search__record--btn">Search</button>
             </form>
           </div>
-          <div class="col-5">
+          <div class="container__img--rep col d-none d-sm-none d-md-block  ">
             <img src="img/svg/dibujo_repartidor.svg" alt="">
           </div>
         </div>
       </div>
     </div>
-    <div id="steps-to-follow" class="container-fluid ">
+    <div id="steps-to-follow" class="container-fluid">
       <img class="steps-to-follow__img" src="img/svg/wave.svg" alt="">
-      <div class="steps-to-follow__section">
+      <div class="steps-to-follow__section ">
         <h2>How Does It Work ?</h2>
-        <div class="steps-to-follow__section--card">
-          <div class="steps-to-follow--one">
-            <div class="card card__num">
+        <div class="steps-to-follow__section--card ">
+          <div class="steps-to-follow--one ">
+            <div class="card card__num  ">
               <img src="img/function/client.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">client</h5>
@@ -86,8 +114,8 @@
               </div>
             </div>
           </div>
-          <div class="steps-to-follow--two">
-            <div class="card card__num">
+          <div class="steps-to-follow--two ">
+            <div class="card card__num  ">
               <img src="img/function/worshop.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">business</h5>
@@ -96,8 +124,8 @@
               </div>
             </div>
           </div>
-          <div class="steps-to-follow--three">
-            <div class="card card__num">
+          <div class="steps-to-follow--three ">
+            <div class="card card__num  ">
               <img src="img/function/search.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Search</h5>
@@ -107,6 +135,7 @@
             </div>
           </div>
         </div>
+        <!--     section boostrao -->
       </div>
     </div>
     <section class="container border-0  testimonials">
@@ -207,8 +236,8 @@
             <img src="img/testimonials/logo_ensaladas.png" alt="">
           </div>
           <div class="favorite__content">
-            <img src="img/testimonials/estrellas.png" alt="">
             <h3>Business</h3>
+            <img src="img/testimonials/estrellas.png" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae soluta, earum laborum blanditiis nisi. Voluptates iste provident dolore dignissimos?</p>
           </div>
         </div>
@@ -217,8 +246,8 @@
             <img src="img/testimonials/logo_ensaladas.png" alt="">
           </div>
           <div class="favorite__content">
-            <img src="img/testimonials/estrellas.png" alt="">
             <h3>Business</h3>
+            <img src="img/testimonials/estrellas.png" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae soluta, earum laborum blanditiis nisi. Voluptates iste provident dolore dignissimos?</p>
           </div>
         </div>
@@ -227,8 +256,8 @@
             <img src="img/testimonials/logo_ensaladas.png" alt="">
           </div>
           <div class="favorite__content">
-            <img src="img/testimonials/estrellas.png" alt="">
             <h3>Business</h3>
+            <img src="img/testimonials/estrellas.png" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae soluta, earum laborum blanditiis nisi. Voluptates iste provident dolore dignissimos?</p>
           </div>
         </div>
@@ -237,8 +266,8 @@
             <img src="img/testimonials/logo_ensaladas.png" alt="">
           </div>
           <div class="favorite__content">
-            <img src="img/testimonials/estrellas.png" alt="">
             <h3>Business</h3>
+            <img src="img/testimonials/estrellas.png" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae soluta, earum laborum blanditiis nisi. Voluptates iste provident dolore dignissimos?</p>
           </div>
         </div>
@@ -247,8 +276,8 @@
             <img src="img/testimonials/logo_ensaladas.png" alt="">
           </div>
           <div class="favorite__content">
-            <img src="img/testimonials/estrellas.png" alt="">
             <h3>Business</h3>
+            <img src="img/testimonials/estrellas.png" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae soluta, earum laborum blanditiis nisi. Voluptates iste provident dolore dignissimos?</p>
           </div>
         </div>
@@ -257,8 +286,8 @@
             <img src="img/testimonials/logo_ensaladas.png" alt="">
           </div>
           <div class="favorite__content">
-            <img src="img/testimonials/estrellas.png" alt="">
             <h3>Business</h3>
+            <img src="img/testimonials/estrellas.png" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae soluta, earum laborum blanditiis nisi. Voluptates iste provident dolore dignissimos?</p>
           </div>
         </div>
@@ -267,8 +296,8 @@
             <img src="img/testimonials/logo_ensaladas.png" alt="">
           </div>
           <div class="favorite__content">
-            <img src="img/testimonials/estrellas.png" alt="">
             <h3>Business</h3>
+            <img src="img/testimonials/estrellas.png" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae soluta, earum laborum blanditiis nisi. Voluptates iste provident dolore dignissimos?</p>
           </div>
         </div>
@@ -277,8 +306,8 @@
             <img src="img/testimonials/logo_ensaladas.png" alt="">
           </div>
           <div class="favorite__content">
-            <img src="img/testimonials/estrellas.png" alt="">
             <h3>Business</h3>
+            <img src="img/testimonials/estrellas.png" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae soluta, earum laborum blanditiis nisi. Voluptates iste provident dolore dignissimos?</p>
           </div>
         </div>
@@ -287,8 +316,8 @@
             <img src="img/testimonials/logo_ensaladas.png" alt="">
           </div>
           <div class="favorite__content">
-            <img src="img/testimonials/estrellas.png" alt="">
             <h3>Business</h3>
+            <img src="img/testimonials/estrellas.png" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae soluta, earum laborum blanditiis nisi. Voluptates iste provident dolore dignissimos?</p>
           </div>
         </div>
@@ -297,15 +326,15 @@
             <img src="img/testimonials/logo_ensaladas.png" alt="">
           </div>
           <div class="favorite__content">
-            <img src="img/testimonials/estrellas.png" alt="">
             <h3>Business</h3>
+            <img src="img/testimonials/estrellas.png" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus molestiae soluta, earum laborum blanditiis nisi. Voluptates iste provident dolore dignissimos?</p>
           </div>
         </div>
       </div>
     </main>
     <section class="container-fluid about__us">
-      <h2 class="about__heading">Information abou us</h2>
+      <h2 class="about__heading">Information about us</h2>
       <div class="about__we--are">
         <div class="about__we--img">
           <img src="img/function/scape.jpg" alt="">
@@ -313,7 +342,7 @@
         <div class="about__we--text">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, illo, inventore molestias ut corrupti laudantium quia tempore sequi aut repellat maiores reiciendis dolores officia nemo soluta atque cum commodi iure, eligendi magni ab doloremque eum perspiciatis vero. Consequatur mollitia, adipisci esse aut rerum earum voluptates delectus dicta sequi illo vel!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem commodi labore aut, nostrum repellendus illum deserunt tempore consequatur eveniet soluta earum dolorem corrupti qui impedit vero velit quia cumque illo reiciendis. Rerum voluptatem, consequatur ipsa dolores, officiis atque a dolor maiores est autem doloribus minima odio, ducimus dignissimos iusto quisquam?</p>
-          <a href="" class="btn btn-primary">More Information</a>
+          <a href="" class="btn btn-secondary">More Information</a>
         </div>
       </div>
     </section>
