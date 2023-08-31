@@ -1,0 +1,67 @@
+.footer__web {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  background-color: #455a64;
+  padding: 4em 4em 0em 4em;
+}
+  
+@media (min-width: 576px) and (max-width: 767px) {
+.about__us {
+  padding: 1em;
+}
+  
+.about__us .about__we--are {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 3em;
+}
+  
+.about__us .about__we--img {
+  width: auto;
+}
+  
+.about__us .about__we--text {
+  padding: 1em;
+}
+  
+.about__us .about__we--text .btn {
+  width: 100%;
+}
+}
+  
+.footer__web .footer__heading {
+  color: white;
+  padding-bottom: 1em;
+}
+  
+.footer__web .footer__web--our p,
+.footer__web .footer__web--contact p {
+  color: white;
+  font-size: 1.2em;
+}
+.footer__web--nav nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+  
+.footer__web--nav nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+}
+  
+.footer__web--copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #e8505b;
+  padding: 0.5em;
+}
+  
+  
+  
