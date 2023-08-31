@@ -34,3 +34,5 @@ One of the standout features of the app is its vast database of businesses and g
 
 * **[Bootstrap](https://getbootstrap.com/)**
 
+* **Javascript**
+
